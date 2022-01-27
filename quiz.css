@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montagu+Slab:wght@200&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+font-family: 'Montagu Slab', serif;
+padding:0 ;
+box-sizing: border-box;
+
+
+}
+.main h1{
+    font-weight: 600;
+    color: #BA8B02;
+    font-size: 5rem;
+    text-shadow:2px 2px #181818;
+}
+ /* li{
+     list-style: none;
+ } */
+ html{
+     font-size: 62.5%;
+ }
+ .main{
+
+    width: 100%;
+
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #A770EF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+ .inner{
+     width: 60vw;
+     background-color:hsla(291, 100%, 76%, 1);
+     padding: 3rem 5rem;
+     border-radius: 1rem;
+     box-shadow: 0 1rem 1rem .3rem #A770EF;
+     cursor: pointer;
+
+ }
+ .inner h2{
+     font-size: 3.5rem;
+     font-weight: 400;
+     margin-top: 1.5rem;
+     margin: 1rem 0 4rem 0;
+   
+ }
+ li{
+     list-style: none;
+     font-size: 2rem;
+     margin-top: 1rem;
+     cursor: pointer;
+   
+    
+ }
+ .Question input[type="radio"]{
+     background-color: grey;
+ }
+ 
+ input{
+    cursor: pointer;
+ }
+ #submit , .btn{
+       padding: 1rem 3rem;
+       outline: none;
+       font-size: 2rem;
+       font-size: 400;
+       display: block;
+       margin: auto;
+       outline: none;
+       border: none;
+       border-radius: 2px;
+       background-color: #FDB99B;
+       margin-top:2rem ;
+       
+ }
+ .key{
+     text-align: center;
+ }
+ #submit:hover{
+     background-color:#F15F79;
+     cursor: pointer;
+ }
+#showscore{
+    background-color:#ee9ca7 ;
+    margin-top:3rem ;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem .3rem #A770EF;
+}
+.scorearea{
+    display: none;
+    /* color: cornsilk; */
+}
+.btn:hover{
+    background-color: #D38312;
+}
+@media(max-width:593px)
+{
+    .main{
+        padding: 2rem auto;
+    }
+    .inner{
+        margin:5rem auto;
+        padding: 3rem 1rem;
+        width: 350px;
+    }
+    /* margin: ; */
+}
